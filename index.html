@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">tindog</a>
@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@
 
       <div class="row">
         <div class="col-lg-6 ">
-          <h1>Meet new and interesting dogs nearby.</h1>
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button">Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button">Download</button>
         </div>
@@ -60,39 +60,40 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
+
     <div class="row">
       <div class="col-lg-4">
         <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3443/3443392.png" alt="check-circle">
-        <h3>Easy to use.</h3>
+        <h3 class="feature-title">Easy to use.</h3>
         <p class="discription">So easy to use, even your dog could do it.</p>
       </div>
       <div class="col-lg-4">
         <img class="icon" src="https://cdn-icons-png.flaticon.com/512/5299/5299029.png" alt="bullseye">
-        <h3>Elite Clientele.</h3>
+        <h3 class="feature-title">Elite Clientele.</h3>
         <p class="discription">We have all the dogs, the greatest dogs.</p>
       </div>
       <div class="col-lg-4">
         <img class="icon" src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="heart">
-        <h3>Guaranteed to work.</h3>
+        <h3 class="feature-title">Guaranteed to work.</h3>
         <p class="discription">Find the love of your dog's life or your money back.</p>
-      </div>
+    </div>
     </div>
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
     <div id="carousel-testimonials" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2 class="sniff">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.
           </h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item container-fluid">
           <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
             their life. I think.</h2>
           <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
@@ -115,7 +116,7 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -126,9 +127,8 @@
 
   <!-- Pricing -->
 
-  <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
+  <section class="white-section" id="pricing">
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
 
@@ -140,12 +140,12 @@
               <h3>Chihuahua</h3>
             </div>
             <div class="card-body">
-              <h2>Free</h2>
+              <h2 class="price-text">Free</h2>
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
               <div class="d-grid">
-              <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button>
+                <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button>
               </div>
             </div>
           </div>
@@ -158,12 +158,12 @@
             <h3>Labrador</h3>
           </div>
           <div class="card-body">
-            <h2>$49 / mo</h2>
+            <h2 class="price-text">$49 / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
             <div class="d-grid">
-            <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
+              <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
             </div>
           </div>
         </div>
@@ -175,13 +175,13 @@
             <h3>Mastiff</h3>
           </div>
           <div class="card-body">
-            <h2>$99 / mo</h2>
+            <h2 class="price-text">$99 / mo</h2>
             <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
             <div class="d-grid">
-            <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+              <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
             </div>
           </div>
         </div>
@@ -192,19 +192,28 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section class="colored-section" id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+<div class="container-fluid">
+    <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="download-button btn btn-large btn-dark"><img class="apple-logo"
+        src="https://cdn-icons-png.flaticon.com/512/226/226769.png" alt="apple-logo"> Download</button>
+    <button type="button" class="download-button btn btn-large btn-light"> <img class="playstore-logo"
+        src="https://cdn-icons-png.flaticon.com/512/104/104122.png" alt="playstore-logo"> Download</button>
+    </div>
   </section>
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <img class="logos" src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook-logo">
+      <img class="logos" src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" alt="instagram-logo">
+      <img class="logos" src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="twitter-logo">
+      <img class="logos" src="https://cdn-icons-png.flaticon.com/512/542/542689.png" alt="mail-logo">
+    </div>
 
-    <p>© Copyright TinDog</p>
+    <p class="copyright">© Copyright TinDog</p>
 
   </footer>
 
